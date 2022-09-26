@@ -9,7 +9,7 @@ const Graph = ({ dailydata }) => {
 
   useEffect(() => {
     const arr = [];
-    for (let i = 0; i < dailydata.length; i++) {
+    for (let i = 0; i < dailydata.length/2; i++) {
       // let bag = dailydata[i].temp.day
       // let x = localStorage.setItem(bag)
       arr.push(dailydata[i].temp);
